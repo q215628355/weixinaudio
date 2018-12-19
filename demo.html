@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="utf-8">		
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <title>仿微信文章音乐播放器插件</title>	
+	 <style type="text/css">
+	html,body{ height: auto !important; background-color: #fff; padding-bottom: 0.96rem }
+	.dynamics-content{ background: #fff; }
+	</style>
+    </head>
+     <body>
+
+	<audio preload="true" src="audio/test.mp3" data-title="音乐标题" data-source="音乐描述"> </audio>
+
+
+	<script src="src/jquery.min.js"></script>
+	<script src="disc/weixinaudio.js"></script>
+	<link rel="stylesheet" href="disc/weixinaudio.css">
+	<script>
+	  $("audio").weixinaudio()
+	</script>
+    </body>
+</html>

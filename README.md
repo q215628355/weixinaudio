@@ -7,7 +7,7 @@
 
 HTML：
 
-<code>
+```html
 	<audio preload="true" src="test.mp3" data-title="播放音频" data-source="音频描述"> </audio>
 	<script src="src/jquery.min.js"></script>
 	<script src="disc/weixinaudio.js"></script>
@@ -15,4 +15,4 @@ HTML：
 	<script>
 	  $("audio").weixinaudio()
 	</script>
-</code>
+```
